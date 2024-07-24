@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.API\\BlogApp.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.API\\BlogApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.API\\BlogApp.API.csproj",
+        "projectName": "BlogApp.API",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.API\\BlogApp.API.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Persistence\\BlogApp.Persistence.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Persistence\\BlogApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Application\\BlogApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Application\\BlogApp.Application.csproj",
+        "projectName": "BlogApp.Application",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Application\\BlogApp.Application.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj",
+        "projectName": "BlogApp.Domain",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Persistence\\BlogApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Persistence\\BlogApp.Persistence.csproj",
+        "projectName": "BlogApp.Persistence",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Persistence\\BlogApp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Application\\BlogApp.Application.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Application\\BlogApp.Application.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Documents\\Internship-2023\\Backend\\starter_project_zsilentcoders\\BlogApp3\\BlogApp.Domain\\BlogApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

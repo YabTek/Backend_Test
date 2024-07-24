@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.API\\Project.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.API\\Project.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.API\\Project.API.csproj",
+        "projectName": "Project.API",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.API\\Project.API.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Identity\\Project.Identity.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Identity\\Project.Identity.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj",
+        "projectName": "Project.Application",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj",
+        "projectName": "Project.Domain",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Identity\\Project.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Identity\\Project.Identity.csproj",
+        "projectName": "Project.Identity",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Identity\\Project.Identity.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj",
+        "projectName": "Project.Persistence",
+        "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\Project.Persistence.csproj",
+        "packagesPath": "C:\\Users\\haymi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haymi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Application\\Project.Application.csproj"
+              },
+              "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj": {
+                "projectPath": "C:\\Users\\haymi\\OneDrive\\Desktop\\Project\\Project.Domain\\Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

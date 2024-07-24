@@ -1,0 +1,12 @@
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\bin\Debug\net6.0\BlogApp.Domain.deps.json
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\bin\Debug\net6.0\BlogApp.Domain.dll
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\bin\Debug\net6.0\BlogApp.Domain.pdb
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.csproj.AssemblyReference.cache
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.AssemblyInfoInputs.cache
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.AssemblyInfo.cs
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.dll
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\refint\BlogApp.Domain.dll
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\BlogApp.Domain.pdb
+C:\Users\haymi\OneDrive\Documents\Internship-2023\Backend\starter_project_zsilentcoders\BlogApp3\BlogApp.Domain\obj\Debug\net6.0\ref\BlogApp.Domain.dll
