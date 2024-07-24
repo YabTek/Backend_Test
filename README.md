@@ -35,3 +35,5 @@ API Documentation
 The backend includes Swagger for API documentation. Once the server is running, you can access the Swagger UI by navigating to:
 Copy code: http://localhost:5037/swagger/index.html
 
+Tech-stack used: 
+.NET, PostgreSQL
