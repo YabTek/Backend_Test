@@ -30,7 +30,6 @@ Copy code: dotnet ef database update
 Running the Server
 After completing the setup steps, you can start the backend server with:
 dotnet run --project Project.API
-This command will launch the ASP.NET Core application on the default port, usually defined in your appsettings.json file (e.g., http://localhost:5000). You can access the backend services by navigating to this URL in your web browser or using tools like Postman to make requests.
 
 API Documentation
 The backend includes Swagger for API documentation. Once the server is running, you can access the Swagger UI by navigating to:
